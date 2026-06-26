@@ -1,0 +1,6 @@
+NOT gate:
+
+TT: 
+Input Output
+0	1
+1	0
