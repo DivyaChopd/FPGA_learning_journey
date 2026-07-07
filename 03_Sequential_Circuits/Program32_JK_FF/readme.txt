@@ -1,0 +1,8 @@
+JK Flip Flop
+
+TT:
+J	K	ACTION	Q
+0	0	HOLD	Qp
+0	1	RESET	0
+1	0	SET	1
+1	1	TOGGLE	not(Qp)

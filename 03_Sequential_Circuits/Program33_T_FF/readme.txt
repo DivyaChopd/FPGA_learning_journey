@@ -1,0 +1,7 @@
+T Flip Flop
+
+TT:
+CLK	T	Qn+1	ACTION
+0	x	Qn	HOLD
+1	0	Qn	HOLD
+1	1	not(Qn)	TOGGLE
