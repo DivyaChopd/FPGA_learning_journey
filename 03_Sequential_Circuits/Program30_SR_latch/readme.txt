@@ -1,0 +1,8 @@
+SR Latch
+
+TT:
+S	R	Q	Q^	STATE
+0	0	Qp	Q^p	HOLD
+0	1	0	1	RESET
+1	0	1	0	SET
+1	1	0	0	INVALID
