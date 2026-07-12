@@ -29,3 +29,18 @@ upper: lower + 3 => lower + (NUM_BITS-1)
 hence : o_data_out <= i_data_in ((i_sel+1)*NUM_BITS-1 downto i_sel*NUM_BITS);
 
 
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+-- NOTES
+----------------------------------------------------------------------------------------------------------------------
+
+1.Sometimes u can give whole input for ex if u have 8 inputs with 4 bits in each so u can define input as 8*4 = 32 bits of 1 input and then while defining the formula slice it depends on ur requirement.
+
+2.To generate the formula – must see pattern and try to use the ports or constants to write the formula.
+o/p = sel when i/p = something. 
+Here choose sel value initially 1 or when u say sel it means it is 1. And when not sel it is 0 . 
+
+
+
