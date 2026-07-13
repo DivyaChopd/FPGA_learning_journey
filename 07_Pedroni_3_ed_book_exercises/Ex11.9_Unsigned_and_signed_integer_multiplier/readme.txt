@@ -17,3 +17,5 @@ Integer types should be used because it does not determine whether no. is positi
 when value is in decimal : to_unsigned or to_signed
 when value is in binary : unsigned or signed
 
+You cannot directly use * with std_logic_vector because compiler don't know whether its a +ve or -ve number. So u have to mention unsigned or signed.
+
